@@ -5,6 +5,11 @@
 class Example {
     // Программа начинается с вызова main().
     public static void main(String args[]) {
-	System.out.println("Это простая Java-программа.");
+	int num;
+	num = 100;
+	System.out.println("Значение num: " + num);
+	num = num * 2;
+	System.out.println("Удвоенное значение num: ");
+	System.out.println(num);
     }
 }
